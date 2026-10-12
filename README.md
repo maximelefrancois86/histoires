@@ -1,7 +1,7 @@
 # Histoires à écouter
 
 Des histoires à choix pour les enfants de 4 à 6 ans, à écouter sur un téléphone :
-https://maximelefrancois86.github.io/histoires/
+https://www.maxime-lefrancois.info/histoires/
 
 L'enfant choisit un personnage, un lieu ou un objet en touchant une image, et l'histoire
 correspondante se lance. Plusieurs enfants peuvent écouter la même histoire chacun sur son
