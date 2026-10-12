@@ -1,35 +1,20 @@
 :root {
-  --bg: #fbf6ec;
-  --bg-2: #f3ead8;
+  /* palette : turquoise #29C6D4 · blanc · crème #FCEEE4 · orange #FF8C5F · corail #E95B67 */
+  color-scheme: light;
+  --bg: #FCEEE4;
+  --bg-2: #f6dfcf;
   --card: #ffffff;
-  --ink: #2a2433;
-  --ink-2: #6d6478;
-  --accent: #e0702f;
-  --accent-ink: #ffffff;
-  --focus: #2f6fe0;
-  --line: #e6dccb;
-  --shadow: 0 2px 10px rgba(60, 40, 20, .10);
+  --ink: #2d2a32;
+  --ink-2: #7b6e68;
+  --accent: #FF8C5F;
+  --accent-ink: #3a1c0e;
+  --turquoise: #29C6D4;
+  --corail: #E95B67;
+  --focus: #29C6D4;
+  --line: #f0dccd;
+  --shadow: 0 2px 10px rgba(120, 60, 30, .10);
   --radius: 18px;
   --font: ui-rounded, "SF Pro Rounded", "Nunito", "Segoe UI", system-ui, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #1d2340;
-    --bg-2: #262d52;
-    --card: #2c345e;
-    --ink: #f4efe6;
-    --ink-2: #b9b5cf;
-    --accent: #ffb655;
-    --accent-ink: #231c10;
-    --focus: #8fb4ff;
-    --line: #3a4372;
-    --shadow: 0 2px 14px rgba(0, 0, 0, .35);
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #1d2340; --bg-2: #262d52; --card: #2c345e; --ink: #f4efe6; --ink-2: #b9b5cf;
-  --accent: #ffb655; --accent-ink: #231c10; --focus: #8fb4ff; --line: #3a4372;
-  --shadow: 0 2px 14px rgba(0, 0, 0, .35);
 }
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -46,7 +31,7 @@ svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width:
 /* barre du haut */
 .bar {
   position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 8px;
-  padding: calc(8px + env(safe-area-inset-top)) 12px 8px; background: var(--bg);
+  padding: calc(8px + env(safe-area-inset-top)) 12px 8px; background: var(--turquoise); color: #06373c;
   border-bottom: 1px solid var(--line);
 }
 .bar h1 { flex: 1; margin: 0; font-size: 19px; font-weight: 750; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -112,7 +97,7 @@ main { max-width: 720px; margin: 0 auto; padding: 16px 16px 40px; outline: none;
 }
 .opt img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
 .opt span { padding: 8px 12px 10px; font-weight: 700; line-height: 1.25; }
-.opt.on { border-color: var(--accent); transform: scale(1.02); }
+.opt.on { border-color: var(--turquoise); transform: scale(1.02); }
 .opt.on::after {
   content: ""; position: absolute; top: 8px; right: 8px; width: 30px; height: 30px; border-radius: 50%;
   background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5 9-10'/%3E%3C/svg%3E") center/20px no-repeat;
@@ -125,7 +110,7 @@ main { max-width: 720px; margin: 0 auto; padding: 16px 16px 40px; outline: none;
 .sub {
   min-height: 112px; margin: 10px 0 6px; padding: 12px 14px; border-radius: 14px; background: var(--bg-2);
 }
-.sub .who { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); }
+.sub .who { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: var(--corail); }
 .sub .txt { font-size: 18px; }
 .prog { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .prog input { flex: 1; accent-color: var(--accent); height: 28px; }

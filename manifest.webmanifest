@@ -3,7 +3,7 @@
   "short_name": "Histoires",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#1d2340",
-  "theme_color": "#1d2340",
+  "background_color": "#FCEEE4",
+  "theme_color": "#29C6D4",
   "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}]
 }
