@@ -1,0 +1,268 @@
+{
+ "titre": "Histoires à écouter",
+ "packs": [
+  {
+   "id": "dinosaures-au-jardin",
+   "titre": "Dinosaures au jardin",
+   "description": "Tom découvre un œuf dans le potager de sa grand-mère, et il en sort Croque, un bébé dinosaure très gourmand.",
+   "couverture": "a/e19549ec7653f9f116ab.webp",
+   "aventure": false,
+   "histoires": 5
+  },
+  {
+   "id": "dragon-timide",
+   "titre": "Braise, le petit dragon timide",
+   "description": "Choisis un personnage, et ce que Braise va apprendre. Un petit dragon qui a peur du feu et du bruit découvre l'amitié, vue par ses amis.",
+   "couverture": "a/7f5c3c728bbba7e55867.webp",
+   "aventure": false,
+   "histoires": 4
+  },
+  {
+   "id": "halloween-tout-doux",
+   "titre": "Halloween tout doux",
+   "description": "Choisis un personnage, un lieu et un objet pour une nuit d'Halloween rigolote et pleine de bonbons.",
+   "couverture": "a/5b6e0768a12f0f7d7702.webp",
+   "aventure": false,
+   "histoires": 5
+  },
+  {
+   "id": "les-metiers",
+   "titre": "Chacun son métier !",
+   "description": "Deux petites aventures à Petit-Pommier, et six métiers pour les vivre. Choisis une aventure, puis le métier que tu veux suivre.",
+   "couverture": "a/68429c6fcfe683713f0b.webp",
+   "aventure": false,
+   "histoires": 6
+  },
+  {
+   "id": "nuit-de-neige",
+   "titre": "Nuit de neige",
+   "description": "La première neige est tombée. La nuit, Flocon le bonhomme de neige prend vie, et il a perdu quelque chose. Choisis ce qu'il a perdu, et qui tu suis cette nuit-là.",
+   "couverture": "a/df7740d2b4568c1e10f2.webp",
+   "aventure": false,
+   "histoires": 5
+  },
+  {
+   "id": "painpain-joyau-sept-couronnes",
+   "titre": "Painpain et le joyau des sept couronnes",
+   "description": "Aide le petit nain Painpain à traverser six royaumes pour rapporter à sa maman le joyau des sept couronnes.",
+   "couverture": "a/891e998d297e6b75bec1.webp",
+   "aventure": true,
+   "histoires": 64
+  },
+  {
+   "id": "petit-robot-perdu",
+   "titre": "Le petit robot perdu",
+   "description": "Bip, un petit robot de ménage tombé du camion, cherche sa maison dans la grande ville. Choisis son ami, le lieu et l'objet qui l'aideront.",
+   "couverture": "a/0108a4a0ef23ff21528c.webp",
+   "aventure": false,
+   "histoires": 4
+  },
+  {
+   "id": "pirates-du-bain",
+   "titre": "Les pirates du bain",
+   "description": "Des pirates minuscules vivent dans la baignoire et partent chaque soir à la recherche d'un trésor.",
+   "couverture": "a/d68d0be16a4dd4bf994d.webp",
+   "aventure": false,
+   "histoires": 4
+  },
+  {
+   "id": "premier-jour-ecole",
+   "titre": "Le premier jour d'école de Pistache",
+   "description": "Un nœud dans le ventre le jour de la rentrée. Choisis qui tu suis, Pistache ou Capucine, et quel jour, et découvre comment tout se passe finalement très bien.",
+   "couverture": "a/bf888c579e4b94eacb61.webp",
+   "aventure": false,
+   "histoires": 4
+  },
+  {
+   "id": "secret-de-la-mer",
+   "titre": "Le secret de la mer",
+   "description": "Au bord de la mer, Nino trouve un coquillage qui parle. Choisis l'animal que tu veux rencontrer au fond de l'eau, et le moment de la journée.",
+   "couverture": "a/b6efd6f4aa8e44c8e722.webp",
+   "aventure": false,
+   "histoires": 4
+  },
+  {
+   "id": "voyage-sur-la-lune",
+   "titre": "Voyage sur la Lune",
+   "description": "Choisis ce que Léa emporte dans sa fusée en carton, et ce qu'elle croise en chemin. Une petite fille et son chat s'envolent jusqu'à la Lune.",
+   "couverture": "a/fe4b8c20cebdc1275dc1.webp",
+   "aventure": false,
+   "histoires": 5
+  }
+ ],
+ "modeles": [
+  {
+   "quoi": "Voix",
+   "nom": "Qwen3-TTS 1.7B (Alibaba Qwen)",
+   "licence": "Apache 2.0",
+   "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+  },
+  {
+   "quoi": "Illustrations",
+   "nom": "FLUX.1 [schnell] (Black Forest Labs)",
+   "licence": "Apache 2.0",
+   "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
+  }
+ ],
+ "sources": {
+  "musicgen-small": {
+   "nom": "MusicGen small (Meta)",
+   "licence": "CC BY-NC 4.0",
+   "url": "https://huggingface.co/facebook/musicgen-small"
+  },
+  "stable-audio-open-1.0": {
+   "nom": "Stable Audio Open 1.0 (Stability AI)",
+   "licence": "Stability AI Community License",
+   "url": "https://huggingface.co/stabilityai/stable-audio-open-1.0"
+  }
+ },
+ "sons": [
+  {
+   "auteur": "BenjaminNelan",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Rooster Crow 3",
+   "source": "freesound",
+   "url": "https://freesound.org/people/BenjaminNelan/sounds/435506/"
+  },
+  {
+   "auteur": "BlondPanda",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Wooden_Door_Creaking_04",
+   "source": "freesound",
+   "url": "https://freesound.org/people/BlondPanda/sounds/778449/"
+  },
+  {
+   "auteur": "GirlWithSoundRecorder",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Stefan, a frog from Poland.",
+   "source": "freesound",
+   "url": "https://freesound.org/people/GirlWithSoundRecorder/sounds/687984/"
+  },
+  {
+   "auteur": "Hildegard_Beats",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Fireplace Vibe",
+   "source": "freesound",
+   "url": "https://freesound.org/people/Hildegard_Beats/sounds/788958/"
+  },
+  {
+   "auteur": "JonCon_Library",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Bee Buzzing",
+   "source": "freesound",
+   "url": "https://freesound.org/people/JonCon_Library/sounds/481647/"
+  },
+  {
+   "auteur": "Letterborne",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Forest_footsteps_6x",
+   "source": "freesound",
+   "url": "https://freesound.org/people/Letterborne/sounds/744710/"
+  },
+  {
+   "auteur": "LukaCafuka",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Forest ambience near a farm",
+   "source": "freesound",
+   "url": "https://freesound.org/people/LukaCafuka/sounds/854010/"
+  },
+  {
+   "auteur": "METKIR",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "drops in a cave.mp3",
+   "source": "freesound",
+   "url": "https://freesound.org/people/METKIR/sounds/663021/"
+  },
+  {
+   "auteur": "NoisyRedFox",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "StepsOnDryGrass",
+   "source": "freesound",
+   "url": "https://freesound.org/people/NoisyRedFox/sounds/734230/"
+  },
+  {
+   "auteur": "OwennewO",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Duck Quacking Quietly Twice",
+   "source": "freesound",
+   "url": "https://freesound.org/people/OwennewO/sounds/719113/"
+  },
+  {
+   "auteur": "SyntaxSeed",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Owl-2",
+   "source": "freesound",
+   "url": "https://freesound.org/people/SyntaxSeed/sounds/871238/"
+  },
+  {
+   "auteur": "ZenithInfinitiveStudios",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Fantasy_ui_Button_1.wav",
+   "source": "freesound",
+   "url": "https://freesound.org/people/ZenithInfinitiveStudios/sounds/376747/"
+  },
+  {
+   "auteur": "baryy",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Summer Meadow 2.wav",
+   "source": "freesound",
+   "url": "https://freesound.org/people/baryy/sounds/409146/"
+  },
+  {
+   "auteur": "cabled_mess",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Footstep in the snow_03 [RAW]",
+   "source": "freesound",
+   "url": "https://freesound.org/people/cabled_mess/sounds/384421/"
+  },
+  {
+   "auteur": "kyles",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "crickets night forest with 2 sharp close cicadas back and forth.flac",
+   "source": "freesound",
+   "url": "https://freesound.org/people/kyles/sounds/453862/"
+  },
+  {
+   "auteur": "kyles",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "sled inuit drag across snow.wav",
+   "source": "freesound",
+   "url": "https://freesound.org/people/kyles/sounds/450847/"
+  },
+  {
+   "auteur": "kyles",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "water trickle small splash roomy bgsound.flac",
+   "source": "freesound",
+   "url": "https://freesound.org/people/kyles/sounds/454337/"
+  },
+  {
+   "auteur": "qubodup",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Magical Mirror Blast",
+   "source": "freesound",
+   "url": "https://freesound.org/people/qubodup/sounds/814051/"
+  },
+  {
+   "auteur": "stevielematt",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "SNORE-01_44100",
+   "source": "freesound",
+   "url": "https://freesound.org/people/stevielematt/sounds/760034/"
+  },
+  {
+   "auteur": "szegvari",
+   "licence": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "nom": "Cold Wind Winter Animals Snow Birds Water Atmo Ambiance Atmosphere Mastered.wav",
+   "source": "freesound",
+   "url": "https://freesound.org/people/szegvari/sounds/608269/"
+  },
+  {
+   "auteur": null,
+   "licence": "CC-BY-NC 4.0 (poids MusicGen)",
+   "nom": null,
+   "source": "musicgen-small",
+   "url": null
+  }
+ ]
+}

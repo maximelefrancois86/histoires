@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Histoires à écouter</title>
+<meta name="description" content="Des histoires à choix pour les 4-6 ans, à écouter sur le téléphone.">
+<meta name="theme-color" content="#1d2340" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbf6ec" media="(prefers-color-scheme: light)">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="bar">
+  <a class="bar-btn" id="btn-home" href="#/" aria-label="Toutes les histoires" hidden>
+    <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+  </a>
+  <h1 id="bar-title">Histoires à écouter</h1>
+  <button class="bar-btn" id="btn-share" aria-label="Partager ce moment" hidden>
+    <svg viewBox="0 0 24 24"><path d="M12 15V3m0 0L7.5 7.5M12 3l4.5 4.5M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg>
+  </button>
+</header>
+<main id="app" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<audio id="audio" preload="auto"></audio>
+<script src="app.js"></script>
+</body>
+</html>
